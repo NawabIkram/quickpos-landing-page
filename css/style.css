@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
