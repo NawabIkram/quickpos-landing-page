@@ -31,20 +31,18 @@
 <section class="features">
     <h2>Features</h2>
 
-    <div class="feature-box">
-        <h3>Inventory Management</h3>
-        <p>Track stock in real-time</p>
-    </div>
-
-    <div class="feature-box">
-        <h3>Sales Analytics</h3>
-        <p>View detailed reports</p>
-    </div>
-
-    <div class="feature-box">
-        <h3>Easy Integration</h3>
-        <p>Connect with other tools</p>
-    </div>
+                        <div class="form-group">
+                            <label for="name">Full Name <span class="text-danger">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address <span class="text-danger">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message <span class="text-danger">*</span></label>
+                            <textarea id="message" name="message" rows="4" placeholder="How can we help you?" required></textarea>
+                        </div>
 </section>
 
 </body>
