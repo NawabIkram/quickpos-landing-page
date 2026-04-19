@@ -21,6 +21,7 @@
         <p>Manage your business easily with QuickPOS</p>
         <button>Get Started</button>
     </section>
+    <!-- Added Hero Section -->
 
 </body>
 </html>
