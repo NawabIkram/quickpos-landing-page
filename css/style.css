@@ -1,15 +1,48 @@
 body {
-    font-family: Arial;
     margin: 0;
+    font-family: Arial;
 }
 
-header {
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
     background: black;
     color: white;
-    padding: 15px;
+    padding: 15px 30px;
 }
 
-section {
-    padding: 50px;
+.navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.signup-btn {
+    background: orange;
+    border: none;
+    padding: 8px 15px;
+}
+
+/* HERO */
+.hero {
     text-align: center;
+    padding: 80px;
+    background: #f4f4f4;
+}
+
+.cta-btn {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* FEATURES */
+.features {
+    text-align: center;
+    padding: 50px;
+}
+
+.feature-box {
+    margin: 20px;
 }
