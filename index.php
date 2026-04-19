@@ -11,6 +11,9 @@
     <header>
         <h2>QuickPOS</h2>
     </header>
+    <nav>
+    <h2>Navbar Added</h2>
+</nav>
 
     <!-- Hero -->
     <section>
